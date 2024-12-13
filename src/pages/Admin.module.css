@@ -1,0 +1,47 @@
+/* src/pages/Admin.module.css */
+
+.adminContainer {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    color: #00274C;
+    /* Michigan Blue */
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.processAwardButton {
+    background-color: #FFCB05;
+    /* Michigan Maize */
+    color: #00274C;
+    /* Michigan Blue */
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.processAwardButton:hover {
+    background-color: #FFC20E;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.successMessage {
+    margin-top: 2rem;
+    color: #28A745;
+    /* Bright green for success */
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #E9F7EF;
+    /* Light green background */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}

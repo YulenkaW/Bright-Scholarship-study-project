@@ -1,0 +1,27 @@
+/* src/components/ApplicantsList.module.css */
+
+.applicantsContainer {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.applicantsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.applicantsTable th,
+.applicantsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.applicantsTable th {
+    background-color: #00274C;
+    /* Michigan Blue */
+    color: #FFF;
+    font-weight: bold;
+}
