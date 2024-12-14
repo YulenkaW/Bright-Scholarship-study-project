@@ -1,0 +1,34 @@
+/* src/components/AwardScholarship.module.css */
+
+.awardContainer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.processAwardButton {
+    background-color: #FFCB05;
+    /* Michigan Maize */
+    color: #00274C;
+    /* Michigan Blue */
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.processAwardButton:hover {
+    background-color: #00274C;
+    /* Michigan Blue */
+    color: #FFCB05;
+    /* Michigan Maize */
+}
+
+.successMessage {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: green;
+}
